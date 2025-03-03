@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cards</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #0f0;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        .cards {
+            display: flex;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+        .card p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .card a {
+            display: inline-block;
+            padding: 10px;
+            background: blue;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>How to create a "card" with CSS</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="./1card.png" alt="DevOps Roadmap">
+                <h3>DevOps Card</h3>
+                <p>DevOps is a collection of two words, Development and Operations...</p>
+                <a href="#">READ MORE...</a>
+            </div>
+            <div class="card">
+                <img src="./2card.png" alt="Full Stack Roadmap">
+                <h3>Full Stack Developer Roadmap</h3>
+                <p>A comprehensive roadmap for becoming a full stack developer...</p>
+                <a href="#">READ MORE...</a>
+            </div>
+            <div class="card">
+                <img src="./3card.png" alt="Web Development Trends">
+                <h3>Web Development Trends</h3>
+                <p>Explore the latest trends in web development...</p>
+                <a href="#">READ MORE...</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
